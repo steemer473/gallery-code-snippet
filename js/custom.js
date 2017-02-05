@@ -1,4 +1,3 @@
-
 /* Increment by 1 from 1 to 15 for item QTY value */
 
 var i = 1;
@@ -9,11 +8,11 @@ function incrementUP() {
     }
 }
 
-/* Dencrement by 1 from 1 to 15 for item QTY value for item 1 */
+/* Decrement by 1 from 1 to 15 for item QTY value for item 1 */
 
 function incrementDown() {
     if (i < 16 && i != 1) {
-        var x  = document.getElementById('counter-1').value = --i;
+        var x = document.getElementById('counter-1').value = --i;
         document.getElementById('cart-sub-total').innerHTML = x.toString();
     }
 }
@@ -30,45 +29,43 @@ document.getElementById("minus-1").onclick = function () {
 /*On click event display alert/message containing the QTY and Item Price*/
 
 document.getElementById('buy-now-1').onclick = function () {
-    qtyPriceAlert ();
+    qtyPriceAlert();
 };
 
-function qtyPriceAlert () {
+function qtyPriceAlert() {
     document.getElementById('add-to-cart-block').style.display = 'block';
 }
 
 /*  Universal Info/Help Code Block */
-// glyphicon glyphicon-info-sign
 
 document.getElementById('help-1').onclick = function () {
-    helpInfoAlert() ();
+    helpInfoAlert()();
 };
 
 document.getElementById('help-2').onclick = function () {
-    helpInfoAlert() ();
+    helpInfoAlert()();
 };
 
 document.getElementById('help-3').onclick = function () {
-    helpInfoAlert() ();
+    helpInfoAlert()();
 };
 
 document.getElementById('help-4').onclick = function () {
-    helpInfoAlert() ();
+    helpInfoAlert()();
 };
 
 document.getElementById('help-5').onclick = function () {
-    helpInfoAlert() ();
+    helpInfoAlert()();
 };
 
 document.getElementById('help-6').onclick = function () {
-    helpInfoAlert() ();
+    helpInfoAlert()();
 };
 
 
-function helpInfoAlert () {
+function helpInfoAlert() {
     document.getElementById('info-help-block').style.display = 'block';
 }
-
 
 /*----Item-2------*/
 
@@ -86,7 +83,7 @@ function incrementUP2() {
 
 function incrementDown2() {
     if (c < 16 && c != 1) {
-        var x  = document.getElementById('counter-2').value = --c;
+        var x = document.getElementById('counter-2').value = --c;
         document.getElementById('cart-sub-total').innerHTML = x.toString();
     }
 }
@@ -103,10 +100,10 @@ document.getElementById("minus-2").onclick = function () {
 /*On click event display alert/message containing the QTY and Item Price*/
 
 document.getElementById('buy-now-2').onclick = function () {
-    qtyPriceAlert2 ();
+    qtyPriceAlert2();
 };
 
-function qtyPriceAlert2 () {
+function qtyPriceAlert2() {
     document.getElementById('add-to-cart-block').style.display = 'block';
 }
 
@@ -123,7 +120,7 @@ function incrementUP3() {
 
 function incrementDown3() {
     if (d < 16 && d != 1) {
-        var x  = document.getElementById('counter-3').value = --d;
+        var x = document.getElementById('counter-3').value = --d;
         document.getElementById('cart-sub-total').innerHTML = x.toString();
     }
 }
@@ -140,10 +137,10 @@ document.getElementById("minus-3").onclick = function () {
 /*On click event display alert/message containing the QTY and Item Price*/
 
 document.getElementById('buy-now-3').onclick = function () {
-    qtyPriceAlert3 ();
+    qtyPriceAlert3();
 };
 
-function qtyPriceAlert3 () {
+function qtyPriceAlert3() {
     document.getElementById('add-to-cart-block').style.display = 'block';
 }
 
@@ -164,7 +161,7 @@ function incrementUP4() {
 
 function incrementDown4() {
     if (e < 16 && e != 1) {
-        var x  = document.getElementById('counter-4').value = --e;
+        var x = document.getElementById('counter-4').value = --e;
         document.getElementById('cart-sub-total').innerHTML = x.toString();
     }
 }
@@ -181,10 +178,10 @@ document.getElementById("minus-4").onclick = function () {
 /*On click event display alert/message containing the QTY and Item Price*/
 
 document.getElementById('buy-now-3').onclick = function () {
-    qtyPriceAlert4 ();
+    qtyPriceAlert4();
 };
 
-function qtyPriceAlert4 () {
+function qtyPriceAlert4() {
     document.getElementById('add-to-cart-block').style.display = 'block';
 }
 
@@ -201,7 +198,7 @@ function incrementUP5() {
 
 function incrementDown5() {
     if (g < 16 && g != 1) {
-        var x  = document.getElementById('counter-5').value = --g;
+        var x = document.getElementById('counter-5').value = --g;
         document.getElementById('cart-sub-total').innerHTML = x.toString();
     }
 }
@@ -218,10 +215,10 @@ document.getElementById("minus-5").onclick = function () {
 /*On click event display alert/message containing the QTY and Item Price*/
 
 document.getElementById('buy-now-5').onclick = function () {
-    qtyPriceAlert5 ();
+    qtyPriceAlert5();
 };
 
-function qtyPriceAlert5 () {
+function qtyPriceAlert5() {
     document.getElementById('add-to-cart-block').style.display = 'block';
 }
 
@@ -238,7 +235,7 @@ function incrementUP6() {
 
 function incrementDown6() {
     if (j < 16 && j != 1) {
-        var x  = document.getElementById('counter-6').value = --j;
+        var x = document.getElementById('counter-6').value = --j;
         document.getElementById('cart-sub-total').innerHTML = x.toString();
     }
 }
@@ -255,9 +252,9 @@ document.getElementById("minus-6").onclick = function () {
 /*On click event display alert/message containing the QTY and Item Price*/
 
 document.getElementById('buy-now-6').onclick = function () {
-    qtyPriceAlert6 ();
+    qtyPriceAlert6();
 };
 
-function qtyPriceAlert6 () {
+function qtyPriceAlert6() {
     document.getElementById('add-to-cart-block').style.display = 'block';
 }
