@@ -1,0 +1,284 @@
+/*General Styles*/
+
+/*.glyphicon {
+    font-size: 2em;
+}*/
+
+#item-container {
+    margin: 2em auto;
+}
+
+#grid-box-1 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height: 250px;
+    max-width: 250px;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/659961/flower1250px.jpg') no-repeat scroll 0 0;
+    overflow-y: hidden;
+}
+
+#grid-box-2 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height: 250px;
+    max-width: 250px;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/659961/flower2250px.jpg') no-repeat scroll 0 0;
+    overflow-y: hidden;
+}
+
+#grid-box-3 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height: 250px;
+    max-width: 250px;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/659961/flower3250px.jpg') no-repeat scroll 0 0;
+    overflow-y: hidden;
+}
+
+#grid-box-4 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height: 250px;
+    max-width: 250px;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/659961/flower4250px.jpg') no-repeat scroll 0 0;
+    overflow-y: hidden;
+}
+
+#grid-box-5 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height: 250px;
+    max-width: 250px;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/659961/flower5250px.jpg') no-repeat scroll 0 0;
+    overflow-y: hidden;
+}
+
+#grid-box-6 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height: 250px;
+    max-width: 250px;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/659961/flower6250px.jpg') no-repeat scroll 0 0;
+    overflow-y: hidden;
+}
+
+#grid-box-1.col-md-4,
+#grid-box-2.col-md-4,
+#grid-box-3.col-md-4,
+#grid-box-4.col-md-4,
+#grid-box-5.col-md-4,
+#grid-box-6.col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*Initial position*/
+.hover-box {
+    position: relative;
+    top: 199px;
+    max-width: 250px;
+    height: 250px;
+    opacity: .8;
+
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.hover-box:hover {
+    position: relative;
+    top: 165px;
+    max-width: 250px;
+    height: 250px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.hover-box-header {
+    text-align: center;
+    padding: 5px 0;
+    background-color: #f00;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.hover-box-body p {
+    margin-bottom: 0;
+}
+
+.hover-box-footer {
+    background-color: #0f0f0f;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.col-xs-5,
+.col-xs-6,
+.col-xs-1 {
+    padding: 0 !important;
+}
+
+.col-md-2 {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5px;
+}
+
+.list-inline {
+    margin-left: 1px;
+    margin-bottom: 0;
+}
+
+.list-inline li {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#hover-box-counter-block {
+    display: inline-block;
+}
+
+body {
+    font-size: 12px;
+}
+
+#counter {
+    display: inline-block;
+}
+
+input#counter-1,
+input#counter-2,
+input#counter-3,
+input#counter-4,
+input#counter-5,
+input#counter-6 {
+    width: 13px;
+    height: 24px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.hover-box-body .media-left img {
+    max-width: 30px;
+}
+
+.hover-box-body {
+    background-color: #d3d3d3;
+    padding-top: 3px;
+
+}
+
+.hover-box-body .media {
+    padding: 7px 0;
+}
+
+.buy-now {
+    background-color: #333;
+    font-weight: 600;
+    padding: 5px 0;
+    color: #fff;
+}
+
+.cart-thumbnail {
+    max-width: 75px;
+    width: 100%;
+}
+
+/* Alert Box */
+#add-to-cart-block {
+    display: none;
+}
+
+button#minus-1,
+button#minus-2,
+button#minus-3,
+button#minus-4,
+button#minus-5,
+button#minus-6,
+button#plus-1,
+button#plus-2,
+button#plus-3,
+button#plus-4,
+button#plus-6,
+button#plus-5 {
+    position: relative;
+    top: -1px;
+}
+
+/* Project Media Queries */
+@media only screen and (max-width: 450px) {
+    #grid-box-1.col-md-4,
+    #grid-box-2.col-md-4,
+    #grid-box-3.col-md-4,
+    #grid-box-4.col-md-4,
+    #grid-box-5.col-md-4,
+    #grid-box-6.col-md-4 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hover-box {
+        position: relative;
+        top: 165px;
+        max-width: 250px;
+        height: 250px;
+        opacity: .8;
+
+        transition-property: all;
+        transition-duration: 1.5s;
+        transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #grid-box-1,
+    #grid-box-2,
+    #grid-box-3,
+    #grid-box-4,
+    #grid-box-5,
+    #grid-box-6 {
+        margin: 0 25px 50px 34px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+    .col-md-2 {
+        width: 16.66666650%;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #grid-box-1,
+    #grid-box-2,
+    #grid-box-3,
+    #grid-box-4,
+    #grid-box-5,
+    #grid-box-6 {
+        margin: 0 25px 50px 25px;
+    }
+
+}
