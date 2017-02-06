@@ -15,3 +15,5 @@ Project Requirements:
 
 Languages Used:  HTML5, CSS, Javascript and Bootstrap 3.
 
+SEE DEMO: https://steemer473.github.io/gallery-code-snippet/
+
